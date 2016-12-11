@@ -1,0 +1,18 @@
+[% # Use the TT Dumper plugin to Data::Dumper variables to the browser   -%]
+[% # Not a good idea for production use, though. :-)  'Indent=1' is      -%]
+[% # optional, but prevents "massive indenting" of deeply nested objects -%]
+[% USE Dumper(Indent=1) -%]
+
+[% META title = 'busqueda Creada' %]
+
+[% # Output information about the record that was added.  First title.   -%]
+<p>Busqueda Agregada:'[% busqueda.palabra %]'</p>
+
+
+<p><a href="[% c.uri_for('/busquedas/listBusquedas') %]">Lista de Busquedas</a></p>
+
+[% # Try out the TT Dumper (for development only!) -%]
+<pre>
+Dump of the 'busqueda' variable:
+[% Dumper.dump(busqueda) %]
+</pre>

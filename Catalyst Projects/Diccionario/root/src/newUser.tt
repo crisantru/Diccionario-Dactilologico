@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home2.css') %]" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/dacto.css') %]" />
+
+	</head>
+
+	<body >
+		<!-- Page Wrapper -->
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="[% c.uri_for('/') %]">Principal</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<ul>
+												<li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+											</ul>
+											<li><a href="[% c.uri_for('/lenguajeDactilologico') %]">¿Dactilológico?</a></li>
+											<li><a href="[% c.uri_for('/diccionary') %]">Lenguaje Dactilológico</a></li>
+											<li><a href="[% c.uri_for('/newUser') %]">Crear Usuario</a></li>
+											<li><a href="[% c.uri_for('/login') %]">Entrar</a></li>
+											<li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+		<!--contenido-->
+
+		<section id="banner2">
+				<h2 style="margin-top:10px">Diccionario de Señas</h2>
+
+				<form>
+					<input style="margin-left:15px;" type="button" value="volver atrás" name="volver atrás2" onclick="history.back()" />
+				</form>
+		</section>
+
+		<h3 style="margin-left:645px; margin-rigth:30px; color:orange">Crea un Nuevo Usuario para poder<br>
+			Utilizar nuestras opciones de busqueda</h3>
+		<img class="alfabeto" style="margin:200px; float:right;   width: 35%" src="[% c.uri_for('/static/images/alfabeto.gif') %]" />
+		<h2 style="margin-left:60px; float:right; color:orange; ">Crear Nuevo Usuario<h2>
+
+		<div class="forms3">
+				<form method="post" action="[% c.uri_for('usuarios/form_create_do') %]">
+					<table>
+						<tr>
+							<td>Nombre</td><td><input type="text" name="nombre"></td></tr>
+							<td>A. Paterno</td><td><input type="text" name="apellidopaterno"></td></tr>
+							<td>A. Materno</td><td><input type="text" name="apellidomaterno"></td></tr>
+							<td>Correo</td><td><input type="text" name="correo"></td></tr>
+							<td>Telefono</td><td><input type="text" name="telefono"></td></tr>
+							<td>F.Nacimiento</td><td><input type="text" name="fechanacimiento"></td></tr>
+							<td>username</td><td><input type="text" name="username"></td></tr>
+							<td>password</td><td><input type="password" name="password"></td></tr>
+							<tr>
+				 			 <td><input style="margin-left:50px;"  type="submit" name="enviar" value="Enviar"></td>
+				 			 <td><input style="margin-left:45px;" type="button" name="cancelar" value="Cancelar" onclick="history.back()"/></td>
+				 		 </tr>
+					</table>
+				</form>
+		</div>
+
+
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul >
+						<a href="http://www.facebook.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/facebook.ico') %]" />
+						<a href="http://www.gmail.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/gmail.ico') %]" />
+						<a href="http://www.rss.nom.es/"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/rss.png') %]" />
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Diseño: <a href="https://www.google.com/intl/es/mail/help/about.html">crisantru@gmail.com</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+	</body>
+</html>

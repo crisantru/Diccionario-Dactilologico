@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home2.css') %]" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/dacto.css') %]" />
+
+
+	</head>
+
+	<body >
+		<!-- Page Wrapper -->
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="[% c.uri_for('/') %]">Principal</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<ul>
+												<li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+											</ul>
+											<li><a href="[% c.uri_for('/busquedas') %]">Buscar</a></li>
+											<li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+											<li><a href="[% c.uri_for('/logout') %]">Salir</a></li>
+										</ul>
+									</div>
+
+					</header>
+
+		<!--contenido-->
+
+		<section id="banner2">
+				<h2 style="margin-top:10px">Diccionario de Señas</h2>
+
+				<form>
+					<input style="margin-left:15px;" type="button" value="volver atrás" name="volver atrás2" onclick="history.back()" />
+				</form>
+		</section>
+			<div class="wrapper">
+				<div>
+					<!--<h2>Lenguaje dactilológico</h2><br>-->
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/A.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/A.jpg') %]" id=A onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/B.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/B.jpg') %]" id=B onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/C.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/C.jpg') %]" id=C onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/D.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/D.jpg') %]" id=D onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/E.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/E.jpg') %]" id=E onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/F.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/F.jpg') %]" id=F onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/G.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/G.jpg') %]" id=G onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/H.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/H.jpg') %]"id=H onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/I.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/I.jpg') %]" id=I onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/J.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/J.jpg') %]"id=J onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/K.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/K.jpg') %]" id=K onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/L.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/L.jpg') %]"id=L onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/M.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/M.jpg') %]" id=M onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/N.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/N.jpg') %]" id=N onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/O.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/O.jpg') %]" id=O onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/P.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/P.jpg') %]" id=P onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/Q.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/Q.jpg') %]" id=Q onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/R.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/R.jpg') %]" id=R onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/S.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/S.jpg') %]"id=S onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/T.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/T.jpg') %]" id=T onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/U.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/U.jpg') %]" id=U onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/V.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/V.jpg') %]" id=V onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/W.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/W.jpg') %]" id=W onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/X.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/X.jpg') %]" id=X onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/Y.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/Y.jpg') %]" id=Y onclick="myFunction(name, id)">
+					<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/Z.jpg') %]" name="[% c.uri_for('/static/images/lenguajeSe/Z.jpg') %]" id=Z onclick="myFunction(name, id)">
+
+					<h2>Selección</h2>
+					<script>
+				    function myFunction(name,id) {
+
+				        var x = document.createElement("TABLE");
+				        x.setAttribute("id", "myTable");
+				        x.setAttribute("class", "table");
+				        document.body.appendChild(x);
+
+				        var y = document.createElement("TR");
+				        y.setAttribute("id", "myTr");
+				        document.getElementById("myTable").appendChild(y);
+
+				        var z = document.createElement("TD");
+				        z.setAttribute("id", id);
+				        var img = document.createElement("IMG");
+				        img.setAttribute("src", name);
+				        img.setAttribute("name", name);
+				        img.setAttribute("id", id)
+
+				        z.appendChild(img);
+				        document.getElementById("myTr").appendChild(z);
+
+				    }
+
+				    function palabra(){
+
+				    var texto = "";
+						var rows = document.getElementById("myTable").rows.length;
+						var celdas = document.getElementById("myTable").rows[0].cells.length;
+
+						for (i = 0; i < celdas; i++) {
+							 texto += document.getElementById("myTable").rows[0].cells[i].id;
+						}
+
+						document.getElementById("traduccion").innerHTML = texto;
+
+				    }
+	    </script>
+				</div>
+			</div>
+
+	<div class="tableDinamic" >
+		<table class="traduccion" id="myTable" ></table>
+		<button style="margin-left:15px;"onclick="cleanTable()">Limpiar</button>
+		<button style="margin-left:15px;"onclick="palabra()">Traducir</button><br><br><br>
+
+		<p style="margin-left:15px;">Resultado</p>
+		<button style="margin-left:15px;" onclick="cleanTextBox()">Limpiar</button><br><br>
+
+		<form method="post" action="[% c.uri_for('/usuarios/insertar_busqueda') %]">
+			<table>
+				<tr>
+					<td><textarea readonly style = "margin-left:15px; resize: none;"  id=traduccion name="guardar"></textarea><br></td>
+					<!--<td><input style="margin-left:15px;" type="submit" value="Guardar"></td>-->
+				</tr>
+			</table>
+		</form>
+	</div>
+
+		<script>
+			function cleanTextBox(){
+				document.getElementById("traduccion").value = "";
+				location.reload();
+			}
+
+			function cleanTable(){
+				document.getElementById("myTable").deleteRow(0);
+			}
+
+		</script>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul >
+						<a href="http://www.facebook.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/facebook.ico') %]" />
+						<a href="http://www.gmail.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/gmail.ico') %]" />
+						<a href="http://www.rss.nom.es/"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/rss.png') %]" />
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Diseño: <a href="https://www.google.com/intl/es/mail/help/about.html">crisantru@gmail.com</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+	</body>
+</html>

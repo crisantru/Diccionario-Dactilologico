@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home.css') %]" />
+
+	</head>
+
+	<body >
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<ul>
+												<li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+												<p>Bienvenido</p>
+											</ul>
+											<li><a href="[% c.uri_for('/busquedas') %]">Buscar</a></li>
+											<!--<li><a href="[% c.uri_for('/diccionary') %]">Diccionario</a></li>-->
+											<!--<li><a href="[% c.uri_for('/usuarios/listUsuarios') %]">Usuarios</a></li>-->
+											<li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+											<li><a href="[% c.uri_for('/logout') %]">Salir</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+
+					<img class="alfabeto" src="[% c.uri_for('/static/images/alfabeto.gif') %]" />
+					<section id="banner">
+						<div class="inner">
+							<h2>Diccionario de Señas</h2>
+							<p>Sitio con fines academicos<br />
+							enfocado al lenguaje Dactilológico<br />
+						</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul >
+								<a href="http://www.facebook.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/facebook.ico') %]" />
+								<a href="http://www.gmail.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/gmail.ico') %]" />
+								<a href="http://www.rss.nom.es/"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/rss.png') %]" />
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Diseño: <a href="https://www.google.com/intl/es/mail/help/about.html">crisantru@gmail.com</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+	</body>
+</html>

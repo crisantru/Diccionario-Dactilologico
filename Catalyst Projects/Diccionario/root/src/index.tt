@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home.css') %]" />
+
+	</head>
+
+	<body >
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="[% c.uri_for('/') %]">Principal</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<ul>
+												<li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+											</ul>
+											<li><a href="[% c.uri_for('/lenguajeDactilologico') %]">¿Dactilológico?</a></li>
+											<li><a href="[% c.uri_for('/diccionary') %]">Lenguaje Dactilológico</a></li>
+											<li><a href="[% c.uri_for('/newUser') %]">Crear Usuario</a></li>
+											<li><a href="[% c.uri_for('/login') %]">Entrar</a></li>
+											<li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+
+
+
+
+					<section id="banner">
+						<div class="inner">
+							<img class="alfabeto" src="[% c.uri_for('/static/images/alfabeto.gif') %]" /><br>
+							<h2>Diccionario de Señas</h2>
+							<p>Sitio con fines academicos<br />
+							enfocado al lenguaje Dactilológico<br />
+
+							<form method="post" action="[% c.uri_for('/login') %]">
+							<table align="center">
+								<tr>
+									<td>Usuario:</td>
+									<td><input type="text" name="username" size="40" /></td>
+								</tr>
+								<tr>
+									<td>Contraseña:</td>
+									<td><input type="password" name="password" size="40" /></td>
+								</tr>
+								<tr>
+									<td colspan="2"><input type="submit" name="submit" value="Acceder" /></td>
+								</tr>
+							</table>
+							</form>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Nuestro sistema esta diseñado basado en el aprendizaje<br>
+									de el lenguaje dactilológico
+							 </h2>
+								<p>Tanto para personas sin Discapacidad como aquellas<br />
+								con discapacidad que quieran aprender a escribir en lenguaje escrito.</p>
+							</header>
+							<ul class="icons major">
+								<li><h4>Aprender</h4></li>
+								<li><h4>Conocer</h4></li>
+								<li><h4>Interactuar</h4></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul >
+								<a href="http://www.facebook.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/facebook.ico') %]" />
+								<a href="http://www.gmail.com"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/gmail.ico') %]" />
+								<a href="http://www.rss.nom.es/"><img class="feedback", style="height: 30px", src="[% c.uri_for('/static/images/rss.png') %]" />
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Diseño: <a href="https://www.google.com/intl/es/mail/help/about.html">crisantru@gmail.com</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+	</body>
+</html>

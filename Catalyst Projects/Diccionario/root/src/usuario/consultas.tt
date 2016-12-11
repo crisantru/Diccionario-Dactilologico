@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home2.css') %]" />
+
+	</head>
+
+<body>
+  <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+        <header id="header" class="alt">
+          <h1><a href="[% c.uri_for('/') %]">Principal</a></h1>
+          <nav id="nav">
+            <ul>
+              <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                <div id="menu">
+                  <ul>
+                    <ul>
+                      <li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+                    </ul>
+                    <li><a href="[% c.uri_for('/lenguajeDactilologico') %]">Lenguaje Dactilológico</a></li>
+                    <li><a href="[% c.uri_for('/diccionary') %]">Diccionario</a></li>
+                    <li><a href="[% c.uri_for('/newUser') %]">Crear Usuario</a></li>
+                    <li><a href="[% c.uri_for('/login') %]">Entrar</a></li>
+                    <li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+  [% META title = 'Lista de Usuarios' -%]
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset=utf8>
+  <h1 align = "center">Tabla de Usuarios Disponibles en el Sistema</h1>
+  <table align="center" cellspacing="15">
+  <tr><th><h3>Nombre</h3></th><th><h3>Apellido P.</h3></th><th><h3>Apellido M.</h3></th><th><h3>Correo</h3></th><th><h3>Username</h3></th></tr>
+
+  [% FOREACH usuario IN usuarios -%]
+
+    <tr>
+      <td>[% usuario.nombre %]</td>
+      <td>[% usuario.apellidopaterno %]</td>
+      <td>[% usuario.apellidomaterno %]</td>
+      <td>[% usuario.correo %]</td>
+      <td>[% usuario.username%]</td>
+
+      <td></td>
+
+    <td>
+        [% # Add a link to delete a usuario %]
+        <a style="color:orange" href="[%
+          c.uri_for(c.controller.action_for('delete'), [usuario.correo]) %]">Borrar</a>
+      </td>
+    </tr>
+  [% END -%]
+  </table>
+
+  <!-- Scripts -->
+    <script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+    <script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+    <script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+    <script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+    <script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+    <script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+
+
+</body>
+</html>
