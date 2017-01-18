@@ -1,0 +1,24 @@
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true
+[remote "all"]
+    url = https://github.com/jillrowe/Catalyst-Openshift.git
+    url = ssh://lettersandnumber@test-advcomp.rhcloud.com/~/git/test.git/
+[remote "origin"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    url = https://github.com/jillrowe/Catalyst-Openshift.git
+[remote "openshift"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    url = ssh://lettersandnumber@test-advcomp.rhcloud.com/~/git/test.git/
+[branch "master"]
+     remote = origin
+     merge = refs/heads/master
+[rhc]
+    app-uuid = lettersandnumber
+    app-name = test
+    domain-name = advcomp
+
+#Delete this line from your final config
+#/*Than you can push to GitHub just by git push origin master, to OpenShift by git push openshift and to both git push all.*/

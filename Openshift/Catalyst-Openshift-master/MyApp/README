@@ -1,0 +1,9 @@
+The server should startup upon pushing to your openshift directory
+
+test it at http://nameofapp-nameofdomain.rhcloud.com/myapp/hello
+
+You should see a few css rules in there - notably that MyApp in in blue found with a gray background.
+
+also test it at /myapp/form to make sure form data is being returned correctly.
+
+I also prefer to use the log4perl and catalyst combo, but I haven't set that up here.
