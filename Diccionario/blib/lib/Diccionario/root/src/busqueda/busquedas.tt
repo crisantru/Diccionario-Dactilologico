@@ -1,0 +1,25 @@
+[% META title = 'Lista de Busquedas' -%]
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset=utf8>
+
+<table>
+<tr><th>Nombre</th><th>Apellido P.</th><th>Apellido M.</th><th>Correo</th><th>Username</th></tr>
+
+[% FOREACH busqueda IN busquedas -%]
+
+  <tr>
+    <td>[% busqueda.correo %]</td>
+    <td>[% busqueda.palabra %]</td>
+    <td>[% usuario.fechabusqueda %]</td>
+
+
+    <td></td>
+
+  <!--<td>
+      [% # Add a link to delete a usuario %]
+      <a href="[%
+        c.uri_for(c.controller.action_for('delete'), [usuario.correo]) %]">Borrar</a>
+    </td>-->
+  </tr>
+[% END -%]
+</table>

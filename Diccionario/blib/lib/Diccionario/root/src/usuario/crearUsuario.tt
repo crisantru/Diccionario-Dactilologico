@@ -1,0 +1,18 @@
+[% # Use the TT Dumper plugin to Data::Dumper variables to the browser   -%]
+[% # Not a good idea for production use, though. :-)  'Indent=1' is      -%]
+[% # optional, but prevents "massive indenting" of deeply nested objects -%]
+[% USE Dumper(Indent=1) -%]
+
+[% META title = 'usuario Creado' %]
+
+[% # Output information about the record that was added.  First title.   -%]
+<p>Usuario Agregado:'[% usuario.nombre %]'</p>
+
+
+<p><a href="[% c.uri_for('/usuarios/listUsuarios') %]">Lista de Usuarios</a></p>
+
+[% # Try out the TT Dumper (for development only!) -%]
+<pre>
+Dump of the 'usuario' variable:
+[% Dumper.dump(usuario) %]
+</pre>

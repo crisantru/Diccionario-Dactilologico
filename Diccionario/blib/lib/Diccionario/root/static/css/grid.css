@@ -1,0 +1,27 @@
+/*gridimagenes*/
+.wrapper{
+		overflow:hidden;
+    width:720px;
+}
+
+.wrapper div{
+		/* cualquier altura mayor que el total de sumar la anchura de las img */
+    width:730px;
+
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+}
+ .wrapper img{
+	 width:100px;
+	 height:75px;
+	 float:left;
+	 margin:10px 10px 0 0;
+}
+
+.traduccion table{
+
+	 height: 100%;
+	 width: 100%;
+	 margin: 0;
+	 padding: 0;
+}

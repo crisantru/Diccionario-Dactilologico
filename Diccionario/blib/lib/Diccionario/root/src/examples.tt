@@ -1,0 +1,7 @@
+
+
+    [% FOREACH letra IN palabra %]
+        <h3>[% letra %]</h3>
+        	<input type="image" src="[% c.uri_for('/static/images/lenguajeSe/', letra) %]">
+
+    [% END %]

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Diccionario Dactilológico</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="[% c.uri_for('/static/css/home2.css') %]" />
+
+	</head>
+  <body >
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="[% c.uri_for('/') %]">Principal</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<ul>
+												<li><a style="color:black" href="[% c.uri_for('/') %]">Home</a></li>
+											</ul>
+											<li><a href="[% c.uri_for('/lenguajeDactilologico') %]">¿Dactilológico?</a></li>
+											<li><a href="[% c.uri_for('/diccionary') %]">Lenguaje Dactilológico</a></li>
+											<li><a href="[% c.uri_for('/newUser') %]">Crear Usuario</a></li>
+											<li><a href="[% c.uri_for('/login') %]">Entrar</a></li>
+											<li><a href="[% c.uri_for('/acercaDe') %]">Acerca De</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+<section id="banner">
+  <div class="inner">
+    <h2>Diccionario de Señas</h2>
+    <p>Sitio con fines academicos<br />
+    enfocado al lenguaje Dactilológico<br />
+
+    <form method="post" action="[% c.uri_for('/login') %]">
+    <table align="center">
+      <tr>
+        <td>Usuario:</td>
+        <td><input type="text" name="username" size="40" /></td>
+      </tr>
+      <tr>
+        <td>Contraseña:</td>
+        <td><input type="password" name="password" size="40" /></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" name="submit" value="Acceder" /></td>
+      </tr>
+    </table>
+    </form>
+
+    <!-- Scripts -->
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrollex.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/jquery.scrolly.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/skel.min.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/util.js') %]"></script>
+			<script src="[% c.uri_for('/static/css/assets/js/main.js') %]"></script>
+	</body>
+</html>
