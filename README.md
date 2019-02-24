@@ -6,8 +6,8 @@
         - Framework: Catalyst
 
   - Pasos de Instalación
-        - Instalar lenguage Perl
-        - Instalar CPAN
-        - Instalar Framework Catalyst
-        - Instalar dependencias del Proyecto
-        - Run Project: Run script/diccionario_server.pl 
+    1. Instalar lenguage Perl
+    2. Instalar CPAN
+    3. Instalar Framework Catalyst
+    4. Instalar dependencias del Proyecto
+    5. Run Project: Run script/diccionario_server.pl 
