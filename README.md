@@ -15,7 +15,7 @@
 ## Capturas
 
 <p align="center">
-  <img width="480" height="320" src="https://res.cloudinary.com/hup2qfvwn/image/upload/v1551073763/images/diccionario%20dactilologico/DiccionarioDacti.png">
+  <img width="520" height="320" src="https://res.cloudinary.com/hup2qfvwn/image/upload/v1551073763/images/diccionario%20dactilologico/DiccionarioDacti.png">
 </p>
 
 <p align="center">
