@@ -12,7 +12,7 @@
     4. Instalar dependencias del Proyecto
     5. Run Project: Run script/diccionario_server.pl 
 
-##Capturas
+## Capturas
 
 <p align="center">
   <img width="460" height="300" src="https://res.cloudinary.com/hup2qfvwn/image/upload/v1551073763/images/diccionario%20dactilologico/DiccionarioDacti.png">
